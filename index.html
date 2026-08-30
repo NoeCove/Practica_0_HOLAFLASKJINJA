@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="contenedor">
-        <h1>Hola Flask + Jinja</h1>
+        <h1>Registro de alumnos</h1>
         <p>Esta es mi primera aplicación Web utilizando Python y Flask.</p>
         
         <form action="/saludar" method="POST">
@@ -57,8 +57,12 @@
             <label for="me_gusta">En pocas palabras, ¿qué te gusta hacer?</label>
             <textarea id="me_gusta" name="me_gusta" maxlength="30" rows="3" placeholder="Máximo 30 caracteres" required></textarea>
             
-            <button type="submit">Saludar</button>
+            <button type="submit">Registrar</button>
         </form>
+        
+        <p>
+            <a href="/alumnos">Ver alumnos registrados</a>
+        </p>
     </div>
 </body>
 </html>
